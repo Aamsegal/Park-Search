@@ -1,0 +1,23 @@
+main {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.park-Group {
+    border-bottom: 1px solid black;
+}
+
+.park-Group img {
+    display: inline;
+    border: 1px solid black;
+    max-width: 150px;
+    margin-left: 5px;
+}
+
+.park-Group h1 {
+    font-size: 28px; 
+}
+
+.park-Group p {
+    font-size: 20px;
+}

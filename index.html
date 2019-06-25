@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Park Search</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+    <main>
+        <div class="container">
+            <h1>Park Finder</h1>
+    
+            <form id="js-form">
+                <label for="search-term">State Code (seperated by</label>
+                <input type="text" name="search-term" id="js-search-term" required>
+    
+                <label for="max-results">Maximum results to return</label>
+                <input type="number" name="max-results" id="js-max-results" value="10" min="1" max="50">
+    
+                <input type="submit" value="Go!">
+            </form>
+    
+            <p id="js-error-message" class="error-message"></p>
+        </div>
+
+        <p id="js-error-message" class="error-message"></p>
+
+        <section class="park-Group" id="park-Group">
+
+        </section>
+
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
